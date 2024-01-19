@@ -1,0 +1,13 @@
+[data-icon-fontello] {
+  font-family: "Fontello", serif;
+}
+[data-icon-fontello]:after {
+  font-family: "Fontello", serif;
+  content: attr(data-icon-fontello);
+}
+
+@font-face {
+  font-family: "Fontello";
+  src: url("/sites/default/files/cohesion/call.eot");
+  src: url("/sites/default/files/cohesion/call.eot?#iefix") format("embedded-opentype"), url("/sites/default/files/cohesion/call.woff2") format("woff2"), url("/sites/default/files/cohesion/call.woff") format("woff"), url("/sites/default/files/cohesion/call.ttf") format("truetype");
+}

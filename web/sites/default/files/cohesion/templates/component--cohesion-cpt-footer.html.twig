@@ -1,0 +1,24 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/element_templates.drupal-menu') }} {{ attach_library('cohesion/global_libraries.langcode') }} {{ attach_library('cohesion/global_libraries._core') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.row-for-columns') }} <div class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} coh-ce-cpt_footer-7bcecd39" > <div class="coh-container coh-ce-cpt_footer-e357fd7a coh-container-boxed" > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner"> <div class="coh-column coh-ce-cpt_footer-dfdc568f coh-visible-xl coh-col-xl-6 coh-col-xl-push-0 coh-col-xl-offset-0" > {{ render_menu('main', 'menu_tpl_menu_template', 1, 1) }} {% set inlineElementContent %}{%- trans with {"langcode": get_content_language() } %}{% verbatim %}&copy;2020 {% endverbatim %}{% endtrans -%}{% endset %} <span class="coh-inline-element {{ coh_instance_class }} coh-ce-cpt_footer-7bc10025"> {{- inlineElementContent -}} </span> </div> <div class="coh-column coh-ce-cpt_footer-81584222 coh-visible-xl coh-col-xl-6 coh-col-xl-pull-0 coh-col-xl-offset-0" > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}"> <div class="coh-row-inner coh-ce-cpt_footer-e6b942f4"> <div class="coh-column coh-ce-cpt_footer-53269a1d coh-col-xl-auto coh-col-xl-push-0 coh-col-xl-pull-0 coh-col-xl-offset-0" > {% set entity_type %}taxonomy_term{% endset %} {% set view_mode %}full{% endset %} {% set entity %}a657029c-afca-4b9c-a414-0ceec06d3f48{% endset %} {{ renderContent(entity_type, view_mode, entity) }} </div> <div class="coh-column coh-ce-cpt_footer-53269a1d coh-col-xl-auto coh-col-xl-push-0 coh-col-xl-pull-0 coh-col-xl-offset-0" > {% set entity_type %}taxonomy_term{% endset %} {% set view_mode %}full{% endset %} {% set entity %}050a1610-23cf-4e49-85ff-0394dc09979d{% endset %} {{ renderContent(entity_type, view_mode, entity) }} </div> <div class="coh-column coh-ce-cpt_footer-53269a1d coh-col-xl-auto coh-col-xl-push-0 coh-col-xl-pull-0 coh-col-xl-offset-0" > {% set entity_type %}taxonomy_term{% endset %} {% set view_mode %}full{% endset %} {% set entity %}10050815-9963-46a4-861c-05214ef43801{% endset %} {{ renderContent(entity_type, view_mode, entity) }} </div> </div> </div> {% set inlineElementContent %}{%- trans with {"langcode": get_content_language() } %}{% verbatim %}+7 900 567 88 67{% endverbatim %}{% endtrans -%}{% endset %} <span class="coh-inline-element coh-ce-cpt_footer-812d31e6"> {{- inlineElementContent -}} </span> </div> </div> </div> </div> </div> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_footer-7bc10025 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.{{ coh_instance_class }}.coh-ce-cpt_footer-7bc10025:after {
+{% if processtoken("[media-reference:file:5a008ac5-5d31-4700-8840-e9fcc397bc07]", {"media-reference": media_reference}, _context, true) is not empty %}   {% if processtoken("[media-reference:file:5a008ac5-5d31-4700-8840-e9fcc397bc07]", {"media-reference": media_reference}, _context, true) is not empty %} content: url("{% set src %}{{ processtoken("[media-reference:file:5a008ac5-5d31-4700-8840-e9fcc397bc07]", {"media-reference": media_reference}, _context, true) }}{% endset %}{% set imagestyle %}thumbnail{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}

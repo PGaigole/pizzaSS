@@ -3447,6 +3447,20 @@ label {
   color: rgb(136, 136, 136);
   font-size: 0.75rem;
 }
+input {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 0.875rem;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  border-width: 0;
+  background-color: rgb(255, 255, 255);
+}
 .coh-accordion-tabs:before, .coh-accordion-tabs:after {
   clear: both;
   content: " ";

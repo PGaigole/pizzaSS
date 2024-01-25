@@ -1,0 +1,15 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/global_libraries.langcode') }} {{ attach_library('cohesion/global_libraries._core') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} <div class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}}" > <div class="coh-container {{ coh_instance_class }} coh-ce-cpt_partnership-dafc689b coh-container-boxed" > <h3 class="coh-heading" {% if user.hasPermission('access visual page builder') and component_content is not defined %} data-ssa-field-uuid="{{ render_field_uuid('db2f0fb1-4c75-4bc0-9582-19c6ce542a14', 'Array') }}" data-ssa-form-type="form-textarea"{% endif %} > {{ getComponentFieldValue("db2f0fb1-4c75-4bc0-9582-19c6ce542a14") | raw }} </h3> {% set block_name %}cohesion_theme_webform{% endset %} <div class="coh-block coh-ce-cpt_partnership-a586471a"> {{ drupal_block(block_name) }} </div> </div> </div> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_partnership-dafc689b {
+  padding-top: 6.25rem;
+  padding-right: 3.125rem;
+  padding-bottom: 6.25rem;
+  padding-left: 6.25rem;
+{% if getComponentFieldValue("e3596509-eb1e-41f7-9ebe-3ee6948b9681") is not empty %}   {% if getComponentFieldValue("e3596509-eb1e-41f7-9ebe-3ee6948b9681") is not empty %} background-color: {{ getComponentFieldValue("e3596509-eb1e-41f7-9ebe-3ee6948b9681") | raw }};{% endif %}{% endif %}
+{% if processtoken("[media-reference:file:da0f2242-f5b9-49a9-9e08-96e53cb4e03d]", {"media-reference": media_reference}, _context, true) is not empty %}   {% if processtoken("[media-reference:file:da0f2242-f5b9-49a9-9e08-96e53cb4e03d]", {"media-reference": media_reference}, _context, true) is not empty %} background-image: url("{% set src %}{{ processtoken("[media-reference:file:da0f2242-f5b9-49a9-9e08-96e53cb4e03d]", {"media-reference": media_reference}, _context, true) }}{% endset %}{% set imagestyle %}{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: -webkit-calc(100% - 88%);
+  background-size: calc(100% - 88%);
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}

@@ -1,6 +1,3 @@
-.coh-style-submit-button {
-  background-color: rgb(251, 174, 97);
-}
 .coh-ce-146eca26:before {
   line-height: 1.0;
   font-weight: normal;
@@ -33,62 +30,6 @@
   -moz-osx-font-smoothing: grayscale;
   content: "\f09a";
   font-family: Fontello;
-}
-.coh-ce-cpt_footer-7bcecd39 {
-  background-color: rgb(236, 240, 232);
-}
-.coh-ce-cpt_footer-e357fd7a {
-  padding-top: 1.875rem;
-  padding-bottom: 1.875rem;
-}
-.coh-ce-cpt_footer-dfdc568f {
-  gap: 30px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.coh-ce-cpt_footer-81584222 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-.coh-ce-cpt_footer-e6b942f4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-.coh-ce-cpt_footer-53269a1d {
-  color: rgb(136, 136, 136);
-}
-.coh-ce-cpt_footer-812d31e6 {
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  color: rgb(136, 136, 136);
-  font-size: 1rem;
-  font-style: normal;
 }
 .coh-ce-cpt_header-2a34baea {
   padding-top: 1.875rem;
@@ -238,9 +179,6 @@
   color: rgb(0, 0, 0);
   font-size: 0.875rem;
   font-style: normal;
-}
-.coh-ce-cpt_highlight_cards-52b71112 {
-  margin-bottom: 0;
 }
 .coh-ce-cpt_feature-8c507962 {
   padding-top: 3.125rem;
@@ -523,9 +461,6 @@
   margin-bottom: 0;
   text-align: left;
 }
-.coh-ce-cpt_order-4a241df4 {
-  margin-bottom: 3.125rem;
-}
 .coh-ce-cpt_h6_underline_left-254a06d9 {
   margin-bottom: 0;
   font-family: 'Roboto', sans-serif;
@@ -537,7 +472,63 @@
   font-weight: 700;
   color: rgb(0, 0, 0);
 }
-.coh-ce-6a85aa41 {
+.coh-ce-cpt_footer-7bcecd39 {
+  background-color: rgb(236, 240, 232);
+}
+.coh-ce-cpt_footer-e357fd7a {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+}
+.coh-ce-cpt_footer-dfdc568f {
+  gap: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.coh-ce-cpt_footer-81584222 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.coh-ce-cpt_footer-e6b942f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.coh-ce-cpt_footer-53269a1d {
+  color: rgb(136, 136, 136);
+}
+.coh-ce-cpt_footer-812d31e6 {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(136, 136, 136);
+  font-size: 1rem;
+  font-style: normal;
+}
+.coh-ce-26e2cedf {
   gap: 50px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -549,6 +540,85 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.coh-ce-6a85aa41:before {
+.coh-ce-26e2cedf:before {
   content: none;
+}
+.coh-ce-26e2cedf:last-child {
+  gap: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.coh-ce-cpt_highlight_cards-163b04bf {
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+  gap: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.coh-ce-cpt_highlight_cards-52b71112 {
+  margin-bottom: 0;
+}
+.coh-ce-cpt_spread_cards-e0090c98 {
+  gap: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.coh-ce-cpt_order-4a241df4 {
+  margin-bottom: 3.125rem;
+}
+
+.coh-ce-cpt_recipes-aa88f1f4 {
+  margin-top: 6.25rem;
+  margin-right: 10.625rem;
+  margin-bottom: 6.25rem;
+  margin-left: 10.625rem;
+}
+.coh-ce-cpt_recipes-80571804 {
+  margin-right: 9.375rem;
+  margin-left: 9.375rem;
+}
+.coh-ce-cpt_recipes-80571804 .coh-slider-container-mid > .coh-slider-container-inner > .slick-list.draggable {
+  margin-right: 3.125rem;
+  margin-left: 3.125rem;
+}
+.coh-ce-cpt_recipes-80571804 .coh-slider-container-mid > .coh-slider-container-inner .coh-slider-nav-inner-top .slick-arrow {
+  height: 2.8125rem;
+  width: 2.8125rem;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: rgb(255, 209, 157);
+  color: rgb(251, 174, 97);
+}
+.coh-ce-cpt_recipe-5c7424df {
+  gap: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }

@@ -15,7 +15,7 @@
   font-size: 3.75rem;
   line-height: 5.625rem;
 }
-.ssa-ck-content button {
+.ssa-ck-content button, .ssa-ck-content .button--primary {
   color: rgb(0, 0, 0);
   background-color: rgb(251, 174, 97);
   padding-top: 0.75rem;
@@ -67,21 +67,15 @@
   font-size: 0.75rem;
 }
 .ssa-ck-content input {
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  font-size: 0.875rem;
   padding-top: 0.75rem;
-  padding-right: 1.5rem;
+  padding-right: 0.75rem;
   padding-bottom: 0.75rem;
-  padding-left: 1.5rem;
+  padding-left: 0.75rem;
   border-width: 0;
   background-color: rgb(255, 255, 255);
-}
-.ssa-ck-content .coh-style-submit-button {
-  background-color: rgb(251, 174, 97);
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: rgb(0, 0, 0);
 }
 .ssa-ck-content :root {
   --ssa-color-palette-alabaster: rgb(236, 240, 232);

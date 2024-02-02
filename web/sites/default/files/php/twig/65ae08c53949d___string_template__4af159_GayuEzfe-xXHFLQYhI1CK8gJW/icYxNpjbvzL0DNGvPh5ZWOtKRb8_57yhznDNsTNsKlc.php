@@ -1,4 +1,42 @@
-.coh-ce-146eca26:before {
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* __string_template__4af159e52ef905e7b35ce903d8b4391f */
+class __TwigTemplate_5c46d2ddb31030d5594679d9a809ec66 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo ".coh-ce-146eca26:before {
   line-height: 1.0;
   font-weight: normal;
   text-transform: none;
@@ -6,7 +44,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
 }
 .coh-ce-da7ddab1:before {
@@ -17,7 +55,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
+  content: \"\\f16d\";
   font-family: Fontello;
 }
 .coh-ce-9e365a6d:before {
@@ -28,7 +66,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: Fontello;
 }
 .coh-ce-cpt_header-2a34baea {
@@ -97,7 +135,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\e800";
+  content: \"\\e800\";
   font-family: Fontello;
   padding-right: 0.625rem;
   font-size: 1.25rem;
@@ -584,6 +622,18 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.coh-ce-cpt_recipe-5c7424df {
+  gap: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 .coh-ce-cpt_recipes-aa88f1f4 {
   margin-top: 6.25rem;
   margin-right: 10.625rem;
@@ -609,11 +659,11 @@
 .coh-ce-cpt_order-4a241df4 {
   margin-bottom: 3.125rem;
 }
-.coh-ce-cpt_order-f41207a6 .slick-slider {
+.coh-ce-cpt_order-893360b8 .slick-slider {
   margin-right: 4.375rem;
   margin-left: 4.375rem;
 }
-.coh-ce-cpt_order-f41207a6 .coh-slider-container-mid .slick-arrow {
+.coh-ce-cpt_order-893360b8 .coh-slider-container-nav-outside-middle-left-right-xl > .coh-slider-container-mid .slick-arrow {
   color: rgb(251, 174, 97);
   background-color: rgb(255, 209, 157);
   height: 2.8125rem;
@@ -621,28 +671,55 @@
   -webkit-border-radius: 50%;
           border-radius: 50%;
 }
-.coh-ce-cpt_recipe-5c7424df {
-  gap: 12px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.coh-ce-cpt_recipe-a6e4c0ca {
-  -o-object-fit: cover;
-     object-fit: cover;
-  aspect-ratio: 1;
-}
-.coh-ce-cpt_recipe-e640709e {
-  width: 80%;
-}
-.coh-ce-cpt_recipe-b9ef1a51 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "__string_template__4af159e52ef905e7b35ce903d8b4391f";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "__string_template__4af159e52ef905e7b35ce903d8b4391f", "");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array();
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
 }

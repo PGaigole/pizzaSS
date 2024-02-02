@@ -74,9 +74,9 @@ class __TwigTemplate_8ff7ceb3162efeb70867f231c81191d0 extends Template
         foreach ($context['_seq'] as $context["_key"] => $context["coh_repeater_val"]) {
             echo " <div class=\"coh-slider-item\" role=\"group\" > <div class=\"coh-container coh-ce-cpt_recipe-5c7424df";
             echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["loop"], "index", [], "any", false, false, true, 1), 1, $this->source), "html", null, true);
-            echo " coh-ce-cpt_recipe-5c7424df coh-container-boxed\" > <img class=\"coh-image coh-ce-cpt_recipe-a586471a";
+            echo " coh-ce-cpt_recipe-5c7424df coh-container-boxed\" > <img class=\"coh-image coh-ce-cpt_recipe-a6e4c0ca";
             echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["loop"], "index", [], "any", false, false, true, 1), 1, $this->source), "html", null, true);
-            echo " coh-ce-cpt_recipe-a586471a coh-image-responsive-xl\" src=\"";
+            echo " coh-ce-cpt_recipe-a6e4c0ca coh-image-responsive-xl\" src=\"";
             ob_start(function () { return ''; });
             echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->extensions['Drupal\cohesion_templates\TwigExtension\TwigExtension']->getComponentFieldValue($context, "8daa74e8-4fce-4a27-9825-5fa7b62c9ed5"));
             $context["src"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
@@ -97,7 +97,9 @@ class __TwigTemplate_8ff7ceb3162efeb70867f231c81191d0 extends Template
             ob_start(function () { return ''; });
             echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->extensions['Drupal\cohesion_templates\TwigExtension\TwigExtension']->getComponentFieldValue($context, "85790fdc-3813-4040-a60d-96daafa8e5d3"));
             $context["paragraphContent"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
-            echo " <p class=\"coh-paragraph\" ";
+            echo " <p class=\"coh-paragraph coh-ce-cpt_recipe-e640709e";
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["loop"], "index", [], "any", false, false, true, 1), 1, $this->source), "html", null, true);
+            echo " coh-ce-cpt_recipe-e640709e\" ";
             if ((twig_get_attribute($this->env, $this->source, ($context["user"] ?? null), "hasPermission", ["access visual page builder"], "method", false, false, true, 1) &&  !array_key_exists("component_content", $context))) {
                 echo " data-ssa-field-uuid=\"";
                 echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\cohesion_templates\TwigExtension\TwigExtension']->renderFieldUuid($context, "85790fdc-3813-4040-a60d-96daafa8e5d3", "Array"), "html", null, true);
@@ -107,7 +109,9 @@ class __TwigTemplate_8ff7ceb3162efeb70867f231c81191d0 extends Template
             echo twig_nl2br($this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["paragraphContent"] ?? null), 1, $this->source), "html", null, true));
             echo "</p> ";
             echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->attachLibrary("cohesion/global_libraries.jquery_ui_effect_none"), "html", null, true);
-            echo " <button class=\"coh-button coh-interaction\" data-interaction-modifiers=\"[{&quot;modifierType&quot;:&quot;&quot;}]\" data-coh-settings='{ \"xl\":{\"buttonAnimation\":[{\"animationType\":\"none\"}]} }' type=\"button\"> ";
+            echo " <button class=\"coh-button coh-ce-cpt_recipe-b9ef1a51";
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["loop"], "index", [], "any", false, false, true, 1), 1, $this->source), "html", null, true);
+            echo " coh-ce-cpt_recipe-b9ef1a51 coh-interaction\" data-interaction-modifiers=\"[{&quot;modifierType&quot;:&quot;&quot;}]\" data-coh-settings='{ \"xl\":{\"buttonAnimation\":[{\"animationType\":\"none\"}]} }' type=\"button\"> ";
             echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->extensions['Drupal\cohesion_templates\TwigExtension\TwigExtension']->getComponentFieldValue($context, "dc3923c0-68c7-406a-8418-4e91770ce143"));
             echo "</button> </div> </div> ";
             ++$context['loop']['index0'];

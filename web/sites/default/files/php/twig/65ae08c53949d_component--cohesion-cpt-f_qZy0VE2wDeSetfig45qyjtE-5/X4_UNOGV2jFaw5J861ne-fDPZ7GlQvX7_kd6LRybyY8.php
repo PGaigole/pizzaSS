@@ -57,6 +57,8 @@ class __TwigTemplate_b6e256fecfa801bf0e301ac5e043b2ce extends Template
         echo " ";
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->attachLibrary("cohesion/global_libraries.cohMatchHeights"), "html", null, true);
         echo " ";
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->attachLibrary("cohesion/element_templates.link"), "html", null, true);
+        echo " ";
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->attachLibrary("cohesion/element_templates.row-for-columns"), "html", null, true);
         echo " <div class=\"coh-container ssa-component coh-component ssa-component-instance-";
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["componentUuid"] ?? null), 1, $this->source), "html", null, true);
@@ -72,31 +74,7 @@ class __TwigTemplate_b6e256fecfa801bf0e301ac5e043b2ce extends Template
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["coh_instance_class"] ?? null), 1, $this->source), "html", null, true);
         echo " coh-ce-cpt_footer-7bc10025\">";
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["inlineElementContent"] ?? null), 1, $this->source), "html", null, true);
-        echo "</span> </div> <div class=\"coh-column coh-ce-cpt_footer-81584222 coh-visible-xl coh-col-xl-6 coh-col-xl-pull-0 coh-col-xl-offset-0\" > <div class=\"coh-row coh-row-xl coh-row-visible-xl\" data-coh-row-match-heights=\"{&quot;xl&quot;:{&quot;target&quot;:&quot;none&quot;}}\"> <div class=\"coh-row-inner coh-ce-cpt_footer-e6b942f4\"> <div class=\"coh-column coh-ce-cpt_footer-53269a1d coh-col-xl-auto coh-col-xl-push-0 coh-col-xl-pull-0 coh-col-xl-offset-0\" > ";
-        $context["entity_type"] = ('' === $tmp = "taxonomy_term") ? '' : new Markup($tmp, $this->env->getCharset());
-        echo " ";
-        $context["view_mode"] = ('' === $tmp = "full") ? '' : new Markup($tmp, $this->env->getCharset());
-        echo " ";
-        $context["entity"] = ('' === $tmp = "a657029c-afca-4b9c-a414-0ceec06d3f48") ? '' : new Markup($tmp, $this->env->getCharset());
-        echo " ";
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\cohesion_templates\TwigExtension\TwigExtension']->renderContent($this->sandbox->ensureToStringAllowed(($context["entity_type"] ?? null), 1, $this->source), $this->sandbox->ensureToStringAllowed(($context["view_mode"] ?? null), 1, $this->source), $this->sandbox->ensureToStringAllowed(($context["entity"] ?? null), 1, $this->source)), "html", null, true);
-        echo " </div> <div class=\"coh-column coh-ce-cpt_footer-53269a1d coh-col-xl-auto coh-col-xl-push-0 coh-col-xl-pull-0 coh-col-xl-offset-0\" > ";
-        $context["entity_type"] = ('' === $tmp = "taxonomy_term") ? '' : new Markup($tmp, $this->env->getCharset());
-        echo " ";
-        $context["view_mode"] = ('' === $tmp = "full") ? '' : new Markup($tmp, $this->env->getCharset());
-        echo " ";
-        $context["entity"] = ('' === $tmp = "c5d73122-7eac-4d5e-b474-e1e290a0457b") ? '' : new Markup($tmp, $this->env->getCharset());
-        echo " ";
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\cohesion_templates\TwigExtension\TwigExtension']->renderContent($this->sandbox->ensureToStringAllowed(($context["entity_type"] ?? null), 1, $this->source), $this->sandbox->ensureToStringAllowed(($context["view_mode"] ?? null), 1, $this->source), $this->sandbox->ensureToStringAllowed(($context["entity"] ?? null), 1, $this->source)), "html", null, true);
-        echo " </div> <div class=\"coh-column coh-ce-cpt_footer-53269a1d coh-col-xl-auto coh-col-xl-push-0 coh-col-xl-pull-0 coh-col-xl-offset-0\" > ";
-        $context["entity_type"] = ('' === $tmp = "taxonomy_term") ? '' : new Markup($tmp, $this->env->getCharset());
-        echo " ";
-        $context["view_mode"] = ('' === $tmp = "full") ? '' : new Markup($tmp, $this->env->getCharset());
-        echo " ";
-        $context["entity"] = ('' === $tmp = "73a13625-e801-4c04-8cf0-c7f2f41829b9") ? '' : new Markup($tmp, $this->env->getCharset());
-        echo " ";
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\cohesion_templates\TwigExtension\TwigExtension']->renderContent($this->sandbox->ensureToStringAllowed(($context["entity_type"] ?? null), 1, $this->source), $this->sandbox->ensureToStringAllowed(($context["view_mode"] ?? null), 1, $this->source), $this->sandbox->ensureToStringAllowed(($context["entity"] ?? null), 1, $this->source)), "html", null, true);
-        echo " </div> </div> </div> ";
+        echo "</span> </div> <div class=\"coh-column coh-ce-cpt_footer-81584222 coh-visible-xl coh-col-xl-6 coh-col-xl-pull-0 coh-col-xl-offset-0\" > <ul class=\"coh-list-container coh-unordered-list coh-ce-cpt_footer-a5b9ef93\"> <li class=\"coh-list-item coh-style-vimeo\"> <a href=\"javascript:void(0)\" class=\"coh-link\" target=\"_self\" > </a> </li> <li class=\"coh-list-item coh-style-facebook\"> <a href=\"javascript:void(0)\" class=\"coh-link\" target=\"_self\" > </a> </li> <li class=\"coh-list-item coh-style-instagram\"> <a href=\"javascript:void(0)\" class=\"coh-link\" target=\"_self\" > </a> </li> </ul> ";
         ob_start(function () { return ''; });
         echo t("+7 900 567 88 67", array(), ["langcode" => $this->extensions['Drupal\cohesion_templates\TwigExtension\TwigExtension']->getContentLanguage()]);
         $context["inlineElementContent"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
@@ -175,7 +153,7 @@ class __TwigTemplate_b6e256fecfa801bf0e301ac5e043b2ce extends Template
      */
     public function getDebugInfo()
     {
-        return array (  153 => 24,  149 => 23,  136 => 22,  132 => 21,  108 => 2,  39 => 1,);
+        return array (  131 => 24,  127 => 23,  114 => 22,  110 => 21,  86 => 2,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -187,13 +165,13 @@ class __TwigTemplate_b6e256fecfa801bf0e301ac5e043b2ce extends Template
     {
         static $tags = array("set" => 1, "trans" => 1, "if" => 22);
         static $filters = array("escape" => 1, "raw" => 24);
-        static $functions = array("coh_instanceid" => 1, "attach_library" => 1, "render_menu" => 1, "get_content_language" => 1, "renderContent" => 1, "processtoken" => 22, "cohesion_image_style" => 22, "renderInlineStyle" => 24);
+        static $functions = array("coh_instanceid" => 1, "attach_library" => 1, "render_menu" => 1, "get_content_language" => 1, "processtoken" => 22, "cohesion_image_style" => 22, "renderInlineStyle" => 24);
 
         try {
             $this->sandbox->checkSecurity(
                 ['set', 'trans', 'if'],
                 ['escape', 'raw'],
-                ['coh_instanceid', 'attach_library', 'render_menu', 'get_content_language', 'renderContent', 'processtoken', 'cohesion_image_style', 'renderInlineStyle']
+                ['coh_instanceid', 'attach_library', 'render_menu', 'get_content_language', 'processtoken', 'cohesion_image_style', 'renderInlineStyle']
             );
         } catch (SecurityError $e) {
             $e->setSourceContext($this->source);

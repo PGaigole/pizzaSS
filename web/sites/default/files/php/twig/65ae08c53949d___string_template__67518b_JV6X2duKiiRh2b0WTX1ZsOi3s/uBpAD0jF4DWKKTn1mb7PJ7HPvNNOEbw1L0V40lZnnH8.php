@@ -1,25 +1,42 @@
-.coh-style-social-icons, .coh-style-facebook, .coh-style-vimeo, .coh-style-instagram {
-  margin-bottom: 0;
-  margin-left: 0;
-  display: inline-block;
-  list-style-type: none;
-  font-size: 1.5rem;
-}
-.coh-style-social-icons a, .coh-style-facebook a, .coh-style-vimeo a, .coh-style-instagram a {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
-  color: rgb(136, 136, 136);
-}
-.coh-style-social-icons a:before, .coh-style-facebook a:before, .coh-style-vimeo a:before, .coh-style-instagram a:before {
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* __string_template__67518b279ac71d86ca7fd3c570220976 */
+class __TwigTemplate_21a378844dc2727fe6e4731d395ca6bb extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo ".coh-ce-146eca26:before {
   line-height: 1.0;
   font-weight: normal;
   text-transform: none;
@@ -27,51 +44,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
-  font-family: Fontello;
-}
-.coh-style-instagram a:before {
-  line-height: 1.0;
-  font-weight: normal;
-  text-transform: none;
-  speak: none;
-  font-variant: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
-  font-family: Fontello;
-}
-.coh-style-vimeo a:before {
-  line-height: 1.0;
-  font-weight: normal;
-  text-transform: none;
-  speak: none;
-  font-variant: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
-  font-family: Fontello;
-}
-.coh-style-facebook a:before {
-  line-height: 1.0;
-  font-weight: normal;
-  text-transform: none;
-  speak: none;
-  font-variant: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
-  font-family: Fontello;
-}
-.coh-ce-146eca26:before {
-  line-height: 1.0;
-  font-weight: normal;
-  text-transform: none;
-  speak: none;
-  font-variant: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
 }
 .coh-ce-da7ddab1:before {
@@ -82,7 +55,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
+  content: \"\\f16d\";
   font-family: Fontello;
 }
 .coh-ce-9e365a6d:before {
@@ -93,7 +66,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: Fontello;
 }
 .coh-ce-cpt_hero_background_with_text-fdf85165 {
@@ -682,7 +655,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\e800";
+  content: \"\\e800\";
   font-family: Fontello;
   padding-right: 0.625rem;
   font-size: 1.25rem;
@@ -725,13 +698,6 @@
       -ms-flex-align: end;
           align-items: flex-end;
 }
-.coh-ce-cpt_footer-a5b9ef93 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 24px;
-}
 .coh-ce-cpt_footer-812d31e6 {
   font-family: 'Roboto', sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -740,4 +706,56 @@
   color: rgb(136, 136, 136);
   font-size: 1rem;
   font-style: normal;
+}
+";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "__string_template__67518b279ac71d86ca7fd3c570220976";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "__string_template__67518b279ac71d86ca7fd3c570220976", "");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array();
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
 }

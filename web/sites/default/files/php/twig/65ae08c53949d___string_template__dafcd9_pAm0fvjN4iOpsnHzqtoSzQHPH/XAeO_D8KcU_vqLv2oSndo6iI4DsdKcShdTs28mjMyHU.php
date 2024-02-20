@@ -1,4 +1,42 @@
-.ssa-ck-content h6 {
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* __string_template__dafcd9bc901b7d464be1b42c5a4c556e */
+class __TwigTemplate_2290af42bffbcebd2a6e2d1f642a3b08 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo ".ssa-ck-content h6 {
   font-family: 'Roboto', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -82,7 +120,6 @@
   margin-left: 0;
   display: inline-block;
   list-style-type: none;
-  font-size: 1.5rem;
 }
 .ssa-ck-content .coh-style-social-icons a, .ssa-ck-content .coh-style-facebook a, .ssa-ck-content .coh-style-vimeo a, .ssa-ck-content .coh-style-instagram a {
   display: -webkit-box;
@@ -106,7 +143,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
 }
 .ssa-ck-content .coh-style-instagram a:before {
@@ -117,7 +154,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
+  content: \"\\f16d\";
   font-family: Fontello;
 }
 .ssa-ck-content .coh-style-vimeo a:before {
@@ -128,7 +165,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
 }
 .ssa-ck-content .coh-style-facebook a:before {
@@ -139,7 +176,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: Fontello;
 }
 .ssa-ck-content :root {
@@ -182,4 +219,56 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: rgb(0, 0, 0);
+}
+";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "__string_template__dafcd9bc901b7d464be1b42c5a4c556e";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "__string_template__dafcd9bc901b7d464be1b42c5a4c556e", "");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array();
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
 }

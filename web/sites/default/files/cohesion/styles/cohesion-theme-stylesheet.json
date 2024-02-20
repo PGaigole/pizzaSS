@@ -160,9 +160,6 @@
         "cohesion_component_cpt_h3_underline_left": {
             "77eeb7e9-a713-4b0b-a05b-f7bff3a6ceeb": ".coh-ce-cpt_h3_underline_left-3091f52f {\n  font-family: 'Roboto', sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  font-weight: 700;\n  color: rgb(0, 0, 0);\n  font-size: 1.75rem;\n  font-style: normal;\n  margin-bottom: 0;\n  text-align: left;\n}"
         },
-        "cohesion_component_cpt_h6_underline_left": {
-            "9fc14085-bc8e-42d5-9d5a-bed265c88dc2": ".coh-ce-cpt_h6_underline_left-254a06d9 {\n  margin-bottom: 0;\n  font-family: 'Roboto', sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  text-align: left;\n  font-size: 1rem;\n  font-style: normal;\n  font-weight: 700;\n  color: rgb(0, 0, 0);\n}"
-        },
         "cohesion_component_cpt_footer": {
             "53171851-34f4-4d96-a45b-e17b4cfee131": ".coh-ce-cpt_footer-7bcecd39 {\n  background-color: rgb(236, 240, 232);\n}",
             "67af61fa-e07d-43b4-8075-42ae23bbd476": ".coh-ce-cpt_footer-e357fd7a {\n  padding-top: 1.875rem;\n  padding-bottom: 1.875rem;\n}",
@@ -185,10 +182,6 @@
         "cohesion_component_cpt_partnership": {
             "c9fd35a1-b280-4558-a81a-3b37a6bd72a5": ""
         },
-        "cohesion_component_cpt_recipes": {
-            "21ad5918-77f9-4121-99e2-014042869901": ".coh-ce-cpt_recipes-aa88f1f4 {\n  margin-top: 6.25rem;\n  margin-right: 10.625rem;\n  margin-bottom: 6.25rem;\n  margin-left: 10.625rem;\n}",
-            "f7951c39-523c-4c93-ad8d-5f88f3c041de": ".coh-ce-cpt_recipes-3b44d206 {\n  margin-right: 4.375rem;\n  margin-left: 4.375rem;\n}\n.coh-ce-cpt_recipes-3b44d206 .coh-slider-container-mid > .coh-slider-container-inner > .slick-list.draggable {\n  margin-right: 3.125rem;\n  margin-left: 3.125rem;\n}\n.coh-ce-cpt_recipes-3b44d206 .coh-slider-container-mid > .coh-slider-container-inner .coh-slider-nav-inner-top .slick-arrow {\n  height: 2.8125rem;\n  width: 2.8125rem;\n  -webkit-border-radius: 50%;\n          border-radius: 50%;\n  background-color: rgb(255, 209, 157);\n  color: rgb(251, 174, 97);\n}"
-        },
         "cohesion_component_cpt_order": {
             "64e36b82-4c80-4a4f-9ac6-3dddfb385981": ".coh-ce-cpt_order-4a241df4 {\n  margin-bottom: 3.125rem;\n}",
             "13f28a59-a951-4b71-bec9-b63d82cf9dbe": ".coh-ce-cpt_order-f41207a6 .slick-slider {\n  margin-right: 4.375rem;\n  margin-left: 4.375rem;\n}\n.coh-ce-cpt_order-f41207a6 .coh-slider-container-mid .slick-arrow {\n  color: rgb(251, 174, 97);\n  background-color: rgb(255, 209, 157);\n  height: 2.8125rem;\n  width: 2.8125rem;\n  -webkit-border-radius: 50%;\n          border-radius: 50%;\n}"
@@ -198,6 +191,13 @@
             "7f4ae0a5-2ba9-4e4c-abf1-0b866edcdf08": ".coh-ce-cpt_recipe-a6e4c0ca {\n  -o-object-fit: cover;\n     object-fit: cover;\n  aspect-ratio: 1;\n}",
             "9d6956cb-4318-4056-877a-e4f41cf825e8": ".coh-ce-cpt_recipe-e640709e {\n  width: 80%;\n}",
             "82315a82-3a20-4330-896b-111f5abd6b19": ".coh-ce-cpt_recipe-b9ef1a51 {\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n}"
+        },
+        "cohesion_component_cpt_h6_underline_left": {
+            "9fc14085-bc8e-42d5-9d5a-bed265c88dc2": ".coh-ce-cpt_h6_underline_left-130610d7 {\n  margin-bottom: 0;\n  font-family: 'Roboto', sans-serif;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  text-align: left;\n  font-size: 1rem;\n  font-style: normal;\n  font-weight: 700;\n  color: rgb(0, 0, 0);\n  line-height: 20px;\n}"
+        },
+        "cohesion_component_cpt_recipes": {
+            "21ad5918-77f9-4121-99e2-014042869901": ".coh-ce-cpt_recipes-aa88f1f4 {\n  margin-top: 6.25rem;\n  margin-right: 10.625rem;\n  margin-bottom: 6.25rem;\n  margin-left: 10.625rem;\n}",
+            "f7951c39-523c-4c93-ad8d-5f88f3c041de": ".coh-ce-cpt_recipes-3b44d206 {\n  margin-right: 4.375rem;\n  margin-left: 4.375rem;\n}\n.coh-ce-cpt_recipes-3b44d206 .coh-slider-container-mid > .coh-slider-container-inner > .slick-list.draggable {\n  margin-right: 3.125rem;\n  margin-left: 3.125rem;\n}\n.coh-ce-cpt_recipes-3b44d206 .coh-slider-container-mid > .coh-slider-container-inner .coh-slider-nav-inner-top .slick-arrow {\n  height: 2.8125rem;\n  width: 2.8125rem;\n  -webkit-border-radius: 50%;\n          border-radius: 50%;\n  background-color: rgb(255, 209, 157);\n  color: rgb(251, 174, 97);\n}"
         }
     },
     "other_styles": {},

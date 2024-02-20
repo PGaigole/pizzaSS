@@ -1,4 +1,42 @@
-.coh-ce-146eca26:before {
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* __string_template__22cbd820961b7b71741acf9570a7e26c */
+class __TwigTemplate_b9954c032485bc4f7eabc4c230532854 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo ".coh-ce-146eca26:before {
   line-height: 1.0;
   font-weight: normal;
   text-transform: none;
@@ -6,7 +44,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
 }
 .coh-ce-da7ddab1:before {
@@ -17,7 +55,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
+  content: \"\\f16d\";
   font-family: Fontello;
 }
 .coh-ce-9e365a6d:before {
@@ -28,7 +66,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: Fontello;
 }
 .coh-ce-cpt_header-2a34baea {
@@ -97,7 +135,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\e800";
+  content: \"\\e800\";
   font-family: Fontello;
   padding-right: 0.625rem;
   font-size: 1.25rem;
@@ -461,6 +499,17 @@
   margin-bottom: 0;
   text-align: left;
 }
+.coh-ce-cpt_h6_underline_left-254a06d9 {
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
 .coh-ce-cpt_footer-7bcecd39 {
   background-color: rgb(236, 240, 232);
 }
@@ -573,6 +622,28 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.coh-ce-cpt_recipes-aa88f1f4 {
+  margin-top: 6.25rem;
+  margin-right: 10.625rem;
+  margin-bottom: 6.25rem;
+  margin-left: 10.625rem;
+}
+.coh-ce-cpt_recipes-3b44d206 {
+  margin-right: 4.375rem;
+  margin-left: 4.375rem;
+}
+.coh-ce-cpt_recipes-3b44d206 .coh-slider-container-mid > .coh-slider-container-inner > .slick-list.draggable {
+  margin-right: 3.125rem;
+  margin-left: 3.125rem;
+}
+.coh-ce-cpt_recipes-3b44d206 .coh-slider-container-mid > .coh-slider-container-inner .coh-slider-nav-inner-top .slick-arrow {
+  height: 2.8125rem;
+  width: 2.8125rem;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: rgb(255, 209, 157);
+  color: rgb(251, 174, 97);
+}
 .coh-ce-cpt_order-4a241df4 {
   margin-bottom: 3.125rem;
 }
@@ -613,37 +684,55 @@
   width: -moz-fit-content;
   width: fit-content;
 }
-.coh-ce-cpt_h6_underline_left-130610d7 {
-  margin-bottom: 0;
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  text-align: left;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  line-height: 20px;
-}
-.coh-ce-cpt_recipes-aa88f1f4 {
-  margin-top: 6.25rem;
-  margin-right: 10.625rem;
-  margin-bottom: 6.25rem;
-  margin-left: 10.625rem;
-}
-.coh-ce-cpt_recipes-3b44d206 {
-  margin-right: 4.375rem;
-  margin-left: 4.375rem;
-}
-.coh-ce-cpt_recipes-3b44d206 .coh-slider-container-mid > .coh-slider-container-inner > .slick-list.draggable {
-  margin-right: 3.125rem;
-  margin-left: 3.125rem;
-}
-.coh-ce-cpt_recipes-3b44d206 .coh-slider-container-mid > .coh-slider-container-inner .coh-slider-nav-inner-top .slick-arrow {
-  height: 2.8125rem;
-  width: 2.8125rem;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  background-color: rgb(255, 209, 157);
-  color: rgb(251, 174, 97);
+";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "__string_template__22cbd820961b7b71741acf9570a7e26c";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "__string_template__22cbd820961b7b71741acf9570a7e26c", "");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array();
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
 }

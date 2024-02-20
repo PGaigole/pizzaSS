@@ -1,4 +1,42 @@
-.coh-ce-146eca26:before {
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* __string_template__56b38cecf4d55da845ac596e8782afc3 */
+class __TwigTemplate_47a2871f629afd344206a81859f10310 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo ".coh-ce-146eca26:before {
   line-height: 1.0;
   font-weight: normal;
   text-transform: none;
@@ -6,7 +44,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
 }
 .coh-ce-da7ddab1:before {
@@ -17,7 +55,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
+  content: \"\\f16d\";
   font-family: Fontello;
 }
 .coh-ce-9e365a6d:before {
@@ -28,7 +66,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: Fontello;
 }
 .coh-ce-cpt_hero_background_with_text-fdf85165 {
@@ -489,6 +527,62 @@
   background-color: rgb(255, 209, 157);
   color: rgb(251, 174, 97);
 }
+.coh-ce-cpt_footer-7bcecd39 {
+  background-color: rgb(236, 240, 232);
+}
+.coh-ce-cpt_footer-e357fd7a {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+}
+.coh-ce-cpt_footer-dfdc568f {
+  gap: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.coh-ce-cpt_footer-81584222 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.coh-ce-cpt_footer-e6b942f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.coh-ce-cpt_footer-53269a1d {
+  color: rgb(136, 136, 136);
+}
+.coh-ce-cpt_footer-812d31e6 {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(136, 136, 136);
+  font-size: 1rem;
+  font-style: normal;
+}
 .coh-ce-87203b77 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -617,64 +711,60 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\e800";
+  content: \"\\e800\";
   font-family: Fontello;
   padding-right: 0.625rem;
   font-size: 1.25rem;
 }
-.coh-ce-cpt_footer-7bcecd39 {
-  background-color: rgb(236, 240, 232);
-}
-.coh-ce-cpt_footer-e357fd7a {
-  padding-top: 1.875rem;
-  padding-bottom: 1.875rem;
-}
-.coh-ce-cpt_footer-dfdc568f {
-  gap: 30px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.coh-ce-cpt_footer-81584222 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-.coh-ce-cpt_footer-e6b942f4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-.coh-ce-cpt_footer-53269a1d {
-  color: rgb(136, 136, 136);
-}
-.coh-ce-cpt_footer-812d31e6 {
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  color: rgb(136, 136, 136);
-  font-size: 1rem;
-  font-style: normal;
+";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "__string_template__56b38cecf4d55da845ac596e8782afc3";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "__string_template__56b38cecf4d55da845ac596e8782afc3", "");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array();
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
 }

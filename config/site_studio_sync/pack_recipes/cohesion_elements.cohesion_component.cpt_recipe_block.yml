@@ -1,0 +1,97 @@
+uuid: 853efd82-6023-4fa3-9867-6c2ec8f16b05
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_uncategorized
+    - views.view.recipes
+label: 'Recipe block'
+id: cpt_recipe_block
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "item",
+              "uid": "drupal-block",
+              "title": "Block",
+              "status": {
+                  "collapsed": true
+              },
+              "uuid": "c0b0d61d-80e4-46e9-8c47-e6bf93269305",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "componentForm": [],
+      "mapper": {
+          "c0b0d61d-80e4-46e9-8c47-e6bf93269305": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "block-settings",
+                          "children": [
+                              {
+                                  "formKey": "block-drupal-block",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "block",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "block-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          }
+      },
+      "model": {
+          "c0b0d61d-80e4-46e9-8c47-e6bf93269305": {
+              "settings": {
+                  "title": "Block",
+                  "customStyle": [
+                      {
+                          "customStyle": ""
+                      }
+                  ],
+                  "theme": "all",
+                  "block": "cohesion_theme_views_block__recipes_block_1"
+              }
+          }
+      },
+      "previewModel": {
+          "c0b0d61d-80e4-46e9-8c47-e6bf93269305": {}
+      },
+      "variableFields": {
+          "c0b0d61d-80e4-46e9-8c47-e6bf93269305": []
+      },
+      "disabledNodes": [],
+      "meta": {}
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0042
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_uncategorized
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-recipe-block
+weight: 0

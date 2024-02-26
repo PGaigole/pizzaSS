@@ -1,0 +1,28 @@
+uuid: ab4a228e-1373-403c-a768-16700034017c
+langcode: en-gb
+status: true
+dependencies: {  }
+label: Alabaster
+id: alabaster
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#ecf0e8",
+              "rgba": "rgba(236, 240, 232, 1)"
+          }
+      },
+      "uid": "alabaster",
+      "name": "Alabaster",
+      "class": ".coh-color-alabaster",
+      "variable": "$coh-color-alabaster",
+      "wysiwyg": true,
+      "inuse": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0042
+locked: false
+modified: true
+selectable: true
+weight: 5

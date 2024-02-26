@@ -1,0 +1,14 @@
+uuid: 001fcb16-e1c8-408a-b3fb-d956bcf9f431
+langcode: en-gb
+status: true
+dependencies: {  }
+label: Partnership
+id: cpt_cat_partnership
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0042
+locked: false
+modified: false
+selectable: true
+class: category-11
+weight: 1009

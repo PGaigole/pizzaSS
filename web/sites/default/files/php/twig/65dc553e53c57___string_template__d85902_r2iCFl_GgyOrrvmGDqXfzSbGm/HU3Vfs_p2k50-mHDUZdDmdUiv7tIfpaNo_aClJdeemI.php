@@ -1,4 +1,42 @@
-.coh-style-social-icons, .coh-style-facebook, .coh-style-vimeo, .coh-style-instagram {
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* __string_template__d8590279553cb3eb0cdba6e4280a9ec1 */
+class __TwigTemplate_c4214f061f06e7f6256ef78b62bcf667 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo ".coh-style-social-icons, .coh-style-facebook, .coh-style-vimeo, .coh-style-instagram {
   margin-bottom: 0;
   margin-left: 0;
   display: inline-block;
@@ -27,7 +65,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
 }
 .coh-style-instagram a:before {
@@ -38,7 +76,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
+  content: \"\\f16d\";
   font-family: Fontello;
 }
 .coh-style-vimeo a:before {
@@ -49,7 +87,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
 }
 .coh-style-facebook a:before {
@@ -60,7 +98,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: Fontello;
 }
 .coh-ce-cpt_hero_background_with_text-fdf85165 {
@@ -271,6 +309,28 @@
   clear: none;
   content: normal;
   display: inline;
+}
+.coh-ce-cpt_service_component-ed365e0e {
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+  padding-right: 9.375rem;
+  padding-left: 9.375rem;
+}
+.coh-ce-cpt_service_component-56698409 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
 }
 .coh-ce-cpt_brands-265aa6e4 {
   gap: 24px;
@@ -637,7 +697,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
 }
 .coh-ce-da7ddab1:before {
@@ -648,7 +708,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
+  content: \"\\f16d\";
   font-family: Fontello;
 }
 .coh-ce-9e365a6d:before {
@@ -659,36 +719,8 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: Fontello;
-}
-.coh-ce-cpt_service_component-24823d48 {
-  margin-top: 3.125rem;
-  margin-bottom: 3.125rem;
-  padding-right: 9.375rem;
-  padding-left: 9.375rem;
-}
-@media (max-width: 1023px) {
-  .coh-ce-cpt_service_component-24823d48 {
-    padding-right: 3.125rem;
-    padding-left: 3.125rem;
-  }
-}
-.coh-ce-cpt_service_component-56698409 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 30px;
 }
 .coh-ce-cpt_header-502bcbdb {
   display: none;
@@ -727,7 +759,7 @@
     display: flex;
   }
 }
-.coh-ce-cpt_header-1449e3a7 {
+.coh-ce-cpt_header-a032289a {
   line-height: 1.0;
   font-weight: normal;
   text-transform: none;
@@ -735,11 +767,11 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: Fontello;
   background-color: rgba(0, 0, 0, 0);
 }
-.coh-ce-cpt_header-1449e3a7:before {
+.coh-ce-cpt_header-a032289a:before {
   line-height: 1.0;
   font-weight: normal;
   text-transform: none;
@@ -747,10 +779,10 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f008\";
   font-family: Fontello;
 }
-.menu-visible.coh-ce-cpt_header-1449e3a7:before {
+.menu-visible.coh-ce-cpt_header-a032289a:before {
   line-height: 1.0;
   font-weight: normal;
   text-transform: none;
@@ -758,7 +790,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\e800";
+  content: \"\\e800\";
   font-family: Fontello;
 }
 .coh-ce-cpt_header-2a34baea {
@@ -767,34 +799,13 @@
   min-width: 6.25rem;
   max-width: 12.5rem;
 }
-.coh-ce-cpt_header-5fbdf343 {
+.coh-ce-cpt_header-158d3622 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
-@media (max-width: 1399px) {
-  .coh-ce-cpt_header-5fbdf343 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-@media (max-width: 1169px) {
-  .coh-ce-cpt_header-5fbdf343 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-@media (max-width: 1023px) {
-  .coh-ce-cpt_header-5fbdf343 {
-    display: none;
-  }
-}
-.coh-ce-cpt_header-a845aa91 {
+.coh-ce-cpt_header-a11e3d4 {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -815,11 +826,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-}
-@media (max-width: 1023px) {
-  .coh-ce-cpt_header-a845aa91 {
-    display: none;
-  }
 }
 .coh-ce-cpt_header-cf75654f {
   font-family: 'Roboto', sans-serif;
@@ -853,8 +859,60 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\e800";
+  content: \"\\e800\";
   font-family: Fontello;
   padding-right: 0.625rem;
   font-size: 1.25rem;
+}
+";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "__string_template__d8590279553cb3eb0cdba6e4280a9ec1";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "__string_template__d8590279553cb3eb0cdba6e4280a9ec1", "");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array();
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
 }

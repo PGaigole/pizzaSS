@@ -1,0 +1,28 @@
+uuid: ec35cd46-3205-49a8-bd62-0388809295f0
+langcode: en-gb
+status: true
+dependencies: {  }
+label: Grey
+id: grey
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#888888",
+              "rgba": "rgba(136, 136, 136, 1)"
+          }
+      },
+      "uid": "grey",
+      "name": "Grey",
+      "class": ".coh-color-grey",
+      "variable": "$coh-color-grey",
+      "wysiwyg": true,
+      "inuse": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0042
+locked: false
+modified: true
+selectable: true
+weight: 1

@@ -1,0 +1,118 @@
+uuid: b8813060-a0d6-442a-9ba5-aac286ccf72c
+langcode: en-gb
+status: true
+dependencies: {  }
+label: 'Recipes view template'
+id: view_tpl_recipes_view_template
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "drupal-view",
+              "title": "View container",
+              "status": {
+                  "collapsed": false
+              },
+              "uuid": "f9e2b952-b125-4cf0-8fd6-75a8af8030c2",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "container",
+                      "uid": "drupal-view-contents",
+                      "title": "View content",
+                      "status": {
+                          "collapsed": false
+                      },
+                      "uuid": "3cf8e1dd-c0fc-4a20-8e15-ad785a513839",
+                      "parentUid": "drupal-view",
+                      "children": [
+                          {
+                              "type": "item",
+                              "uid": "drupal-view-filter",
+                              "title": "Filter",
+                              "status": {
+                                  "collapsed": true
+                              },
+                              "uuid": "ea3d2883-d9b3-4942-90c9-4a12991e9249",
+                              "parentUid": "drupal-view-contents",
+                              "children": []
+                          },
+                          {
+                              "type": "container",
+                              "uid": "heading",
+                              "title": "Heading",
+                              "status": {
+                                  "collapsed": true
+                              },
+                              "uuid": "b1e8f76b-5d0b-4204-9d31-fed8e278e72d",
+                              "parentUid": "drupal-view-contents",
+                              "children": []
+                          },
+                          {
+                              "type": "container",
+                              "uid": "pattern-repeater",
+                              "title": "Pattern repeater",
+                              "mimicParent": true,
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "uuid": "662d6615-dc47-40c9-a95e-70a9aa76fbb0",
+                              "parentUid": "drupal-view-contents",
+                              "children": [
+                                  {
+                                      "type": "item",
+                                      "uid": "drupal-view-item",
+                                      "title": "View item",
+                                      "status": {
+                                          "collapsed": true
+                                      },
+                                      "uuid": "c3358010-33fa-4ad5-b022-d579b8b188d9",
+                                      "parentUid": "pattern-repeater",
+                                      "children": []
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "item",
+                              "uid": "pagination",
+                              "title": "Pagination",
+                              "status": {
+                                  "collapsed": true
+                              },
+                              "uuid": "6f1b10bc-cdd8-4a7e-bc1b-eabe283df1e4",
+                              "parentUid": "drupal-view-contents",
+                              "children": []
+                          }
+                      ]
+                  }
+              ]
+          }
+      ],
+      "mapper": {
+          "f9e2b952-b125-4cf0-8fd6-75a8af8030c2": {},
+          "3cf8e1dd-c0fc-4a20-8e15-ad785a513839": {},
+          "662d6615-dc47-40c9-a95e-70a9aa76fbb0": {},
+          "c3358010-33fa-4ad5-b022-d579b8b188d9": {},
+          "6f1b10bc-cdd8-4a7e-bc1b-eabe283df1e4": {},
+          "ea3d2883-d9b3-4942-90c9-4a12991e9249": {},
+          "b1e8f76b-5d0b-4204-9d31-fed8e278e72d": {}
+      },
+      "model": {
+          "b1e8f76b-5d0b-4204-9d31-fed8e278e72d": {
+              "settings": {
+                  "element": "h1"
+              }
+          }
+      },
+      "previewModel": {},
+      "variableFields": {},
+      "meta": {}
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0042
+locked: false
+modified: true
+selectable: true
+custom: true
+twig_template: views-view--cohesion-view-tpl-recipes-view-template

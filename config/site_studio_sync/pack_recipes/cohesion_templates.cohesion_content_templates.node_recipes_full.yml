@@ -1,0 +1,202 @@
+uuid: 759ccef7-c2b7-4e19-a516-698613efd3a0
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - cohesion_templates.cohesion_master_templates.master_template
+label: 'Full content (Node, Recipes)'
+id: node_recipes_full
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "uuid": "6bb81e58-0adf-4fee-970f-bc15b125b3bb",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "container",
+                      "uid": "drupal-field",
+                      "title": "Field",
+                      "status": {
+                          "collapsed": false
+                      },
+                      "uuid": "30749a95-fdb3-4703-af98-60b712b577c1",
+                      "parentUid": "container",
+                      "children": []
+                  },
+                  {
+                      "type": "item",
+                      "uid": "image",
+                      "title": "Image",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "uuid": "79a42142-2e9a-4f4d-8ad9-771e5c75caa8",
+                      "parentUid": "container",
+                      "children": []
+                  }
+              ]
+          }
+      ],
+      "mapper": {
+          "6bb81e58-0adf-4fee-970f-bc15b125b3bb": {},
+          "30749a95-fdb3-4703-af98-60b712b577c1": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "drupal-field-settings",
+                          "children": [
+                              {
+                                  "formKey": "drupal-field-field",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "content",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          },
+          "79a42142-2e9a-4f4d-8ad9-771e5c75caa8": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "image-settings",
+                          "children": [
+                              {
+                                  "formKey": "image-image",
+                                  "activeFields": [
+                                      {
+                                          "name": "image",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "title",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "alt",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "lazyload",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "image-size",
+                                  "activeFields": [
+                                      {
+                                          "name": "displaySize",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "imageAlignment",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "image-style",
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          }
+      },
+      "model": {
+          "6bb81e58-0adf-4fee-970f-bc15b125b3bb": {
+              "settings": {
+                  "width": "fluid"
+              }
+          },
+          "30749a95-fdb3-4703-af98-60b712b577c1": {
+              "settings": {
+                  "title": "Field",
+                  "drupalField": "content.field_image_upload_recipe"
+              }
+          },
+          "79a42142-2e9a-4f4d-8ad9-771e5c75caa8": {
+              "settings": {
+                  "styles": {
+                      "xl": {
+                          "displaySize": "coh-image-responsive",
+                          "imageAlignment": "coh-image-align-left"
+                      }
+                  },
+                  "title": "Image",
+                  "customStyle": [
+                      {
+                          "customStyle": ""
+                      }
+                  ],
+                  "lazyload": false,
+                  "imageStyle": "",
+                  "image": "[node:field_image_upload_recipe]"
+              }
+          }
+      },
+      "previewModel": {
+          "30749a95-fdb3-4703-af98-60b712b577c1": {},
+          "79a42142-2e9a-4f4d-8ad9-771e5c75caa8": {
+              "settings": {
+                  "title": "Image",
+                  "lazyload": false,
+                  "styles": {
+                      "xl": {
+                          "displaySize": "coh-image-responsive"
+                      }
+                  }
+              }
+          }
+      },
+      "variableFields": {
+          "30749a95-fdb3-4703-af98-60b712b577c1": [],
+          "79a42142-2e9a-4f4d-8ad9-771e5c75caa8": [
+              "settings.image"
+          ]
+      },
+      "meta": {}
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0042
+modified: true
+selectable: true
+custom: false
+twig_template: node--cohesion--node-recipes-full
+default: true
+entity_type: node
+bundle: recipes
+view_mode: full
+master_template: __none__

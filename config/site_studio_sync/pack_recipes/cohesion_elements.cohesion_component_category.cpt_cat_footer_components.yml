@@ -1,0 +1,14 @@
+uuid: 268cd6e6-6a53-490e-ad32-4d09554d5412
+langcode: en-gb
+status: true
+dependencies: {  }
+label: Footer
+id: cpt_cat_footer_components
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0042
+locked: false
+modified: false
+selectable: true
+class: category-4
+weight: 1001

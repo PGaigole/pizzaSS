@@ -1,0 +1,29 @@
+uuid: 820fcfab-1b5c-4952-89cd-9efd22a0577c
+langcode: en-gb
+status: true
+dependencies: {  }
+id: pack_card_components
+label: 'Card Components'
+description: ''
+excluded_entity_types: '[]'
+settings: |
+  {
+      "5eea9e4c-8d6e-4dd6-9a1b-8be1f89346e7": {
+          "type": "cohesion_component",
+          "items": {
+              "274d3594-28d4-462c-b3b1-b0a3132c4674": {
+                  "type": "cohesion_color"
+              },
+              "5eea9e4c-8d6e-4dd6-9a1b-8be1f89346e7": {
+                  "type": "cohesion_component"
+              },
+              "001fcb16-e1c8-408a-b3fb-d956bcf9f431": {
+                  "type": "cohesion_component_category"
+              },
+              "da0f2242-f5b9-49a9-9e08-96e53cb4e03d": {
+                  "type": "file"
+              }
+          },
+          "checked": true
+      }
+  }

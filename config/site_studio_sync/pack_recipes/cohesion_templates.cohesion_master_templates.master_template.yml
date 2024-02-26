@@ -1,0 +1,129 @@
+uuid: 0524b146-d9ee-44c1-be41-cb3164eb7ec4
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component.cpt_footer
+    - cohesion_elements.cohesion_component.cpt_header
+label: 'Master template'
+id: master_template
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "layout",
+              "uuid": "18da2895-23d1-4511-b8db-9c6728c66833",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "uid": "cpt_header",
+                      "type": "component",
+                      "title": "Header",
+                      "enabled": true,
+                      "category": "category-4",
+                      "componentId": "cpt_header",
+                      "componentType": "row-for-columns",
+                      "iconColor": "custom",
+                      "uuid": "39c278d0-a285-424f-89db-67fe210f8c55",
+                      "parentUid": "container",
+                      "status": {},
+                      "children": []
+                  },
+                  {
+                      "type": "item",
+                      "uid": "drupal-region",
+                      "title": "Region",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "uuid": "cb6a91f3-5e7c-4ebb-972d-0b76f0588a2a",
+                      "parentUid": "container",
+                      "children": []
+                  },
+                  {
+                      "uid": "cpt_footer",
+                      "type": "component",
+                      "title": "Footer",
+                      "enabled": true,
+                      "category": "category-4",
+                      "componentId": "cpt_footer",
+                      "componentType": "row-for-columns",
+                      "iconColor": "custom",
+                      "uuid": "04391dfd-c237-4275-81f2-62d4217ab563",
+                      "parentUid": "container",
+                      "status": {},
+                      "children": []
+                  }
+              ]
+          }
+      ],
+      "mapper": {
+          "18da2895-23d1-4511-b8db-9c6728c66833": {},
+          "cb6a91f3-5e7c-4ebb-972d-0b76f0588a2a": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "region-settings",
+                          "children": [
+                              {
+                                  "formKey": "region-type",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "type",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          }
+      },
+      "model": {
+          "18da2895-23d1-4511-b8db-9c6728c66833": {
+              "settings": {
+                  "width": "fluid"
+              }
+          },
+          "39c278d0-a285-424f-89db-67fe210f8c55": {},
+          "cb6a91f3-5e7c-4ebb-972d-0b76f0588a2a": {
+              "settings": {
+                  "title": "Region",
+                  "region": {
+                      "theme": "cohesion_theme",
+                      "type": "content"
+                  }
+              }
+          },
+          "04391dfd-c237-4275-81f2-62d4217ab563": {}
+      },
+      "previewModel": {
+          "cb6a91f3-5e7c-4ebb-972d-0b76f0588a2a": {}
+      },
+      "variableFields": {
+          "cb6a91f3-5e7c-4ebb-972d-0b76f0588a2a": []
+      },
+      "meta": {
+          "fieldHistory": []
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0042
+locked: false
+modified: true
+selectable: true
+custom: false
+twig_template: page--cohesion--master-template
+default: true

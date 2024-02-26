@@ -1,0 +1,231 @@
+uuid: 28aa8f13-1f56-423f-a729-041e242e7981
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - cohesion_custom_styles.cohesion_custom_style.2592e9eb
+    - cohesion_website_settings.cohesion_icon_library.Fontello
+label: 'Social icon - Vimeo'
+id: dc9187e4
+json_values: |
+  {
+      "preview": {
+          "text": "<ul>\n\t<li class=\"coh-preview coh-style-social-icon\"><a>&nbsp;<\/a><\/li>\n\t<li class=\"coh-preview coh-style-social-icon\"><a>&nbsp;<\/a><\/li>\n\t<li class=\"coh-preview coh-style-social-icon\"><a>&nbsp;<\/a><\/li>\n<\/ul>",
+          "textFormat": "cohesion",
+          "background": {
+              "value": {
+                  "rgba": "rgba(255,255,255,1)"
+              }
+          }
+      },
+      "styles": {
+          "settings": {
+              "element": "li,dd,dt"
+          },
+          "22177781-ea17-40bf-b7aa-dadfa9c1ae3f": {
+              "styles": {},
+              "settings": {
+                  "element": "a"
+              }
+          },
+          "d9ce55ba-0501-4c16-97de-a992349f66c5": {
+              "styles": {
+                  "xl": {
+                      "content-icon": {
+                          "contentIcon": {
+                              "value": {
+                                  "iconName": 61833,
+                                  "fontFamily": "Fontello"
+                              }
+                          }
+                      }
+                  }
+              },
+              "settings": {
+                  "pseudo": ":before"
+              }
+          }
+      },
+      "previewModel": {},
+      "variableFields": []
+  }
+json_mapper: |
+  {
+      "styles": {
+          "title": "Default",
+          "selectorType": "topLevel",
+          "formDefinition": [
+              {
+                  "formKey": "font",
+                  "children": [
+                      {
+                          "formKey": "font-and-color",
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
+                              }
+                          ],
+                          "activeFields": [
+                              {
+                                  "name": "font-family",
+                                  "active": true
+                              },
+                              {
+                                  "name": "font-weight",
+                                  "active": true
+                              },
+                              {
+                                  "name": "color",
+                                  "active": true
+                              }
+                          ]
+                      },
+                      {
+                          "formKey": "font-sizing-and-alignment",
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
+                              }
+                          ],
+                          "activeFields": [
+                              {
+                                  "name": "font-size",
+                                  "active": true
+                              },
+                              {
+                                  "name": "line-height",
+                                  "active": true
+                              },
+                              {
+                                  "name": "text-align",
+                                  "active": true
+                              },
+                              {
+                                  "name": "letter-spacing",
+                                  "active": false
+                              },
+                              {
+                                  "name": "word-spacing",
+                                  "active": false
+                              },
+                              {
+                                  "name": "text-indent",
+                                  "active": false
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "formKey": "layout",
+                  "children": [
+                      {
+                          "formKey": "margin",
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
+                              }
+                          ],
+                          "activeFields": [
+                              {
+                                  "name": "margin-equal",
+                                  "active": false
+                              },
+                              {
+                                  "name": "margin-top",
+                                  "active": true
+                              },
+                              {
+                                  "name": "margin-bottom",
+                                  "active": true
+                              },
+                              {
+                                  "name": "margin-left",
+                                  "active": true
+                              },
+                              {
+                                  "name": "margin-right",
+                                  "active": true
+                              },
+                              {
+                                  "name": "margin-block-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "margin-block-end",
+                                  "active": false
+                              },
+                              {
+                                  "name": "margin-inline-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "margin-inline-end",
+                                  "active": false
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "items": [
+              {
+                  "title": "a",
+                  "type": "container",
+                  "items": [
+                      {
+                          "title": ":before",
+                          "type": "container",
+                          "items": [],
+                          "selectorType": "pseudo",
+                          "uuid": "d9ce55ba-0501-4c16-97de-a992349f66c5",
+                          "allowedTypes": [
+                              "child",
+                              "pseudo"
+                          ],
+                          "formDefinition": [
+                              {
+                                  "formKey": "content",
+                                  "children": [
+                                      {
+                                          "formKey": "icon",
+                                          "activeFields": [
+                                              {
+                                                  "name": "contentIcon",
+                                                  "active": true
+                                              }
+                                          ],
+                                          "breakpoints": [
+                                              {
+                                                  "name": "xl"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "child",
+                  "uuid": "22177781-ea17-40bf-b7aa-dadfa9c1ae3f",
+                  "allowedTypes": [
+                      "child",
+                      "pseudo",
+                      "modifier"
+                  ],
+                  "formDefinition": [],
+                  "model": "a"
+              }
+          ]
+      }
+  }
+last_entity_update: entityupdate_0042
+locked: false
+modified: true
+selectable: true
+class_name: .coh-style-vimeo
+custom_style_type: list_item
+available_in_wysiwyg: false
+available_in_wysiwyg_inline: false
+parent: .coh-style-social-icons
+weight: 0

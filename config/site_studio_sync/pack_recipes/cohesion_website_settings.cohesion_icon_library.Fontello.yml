@@ -1,0 +1,52 @@
+uuid: 40d2a978-1536-45aa-b945-cb78f1ae81f9
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'file:file:1ddc11bb-e452-464c-b720-45f5ab6f6800'
+    - 'file:file:3c2d6284-abf2-4e82-bae2-349baff5b220'
+    - 'file:file:53feb616-5cdd-409d-9d7a-4ef0aaca772d'
+    - 'file:file:85c9bb93-b890-4d70-b0e1-8cb8afd3dcd4'
+    - 'file:file:b09332a4-c22f-4d51-a483-864cae103c94'
+label: Fontello
+id: Fontello
+json_values: |
+  {
+      "fontFamilyName": "Fontello",
+      "name": "Fontello",
+      "key": "uploadFontello",
+      "type": "upload",
+      "provider": "Fontello",
+      "fontFiles": {
+          "eot": {
+              "type": "file",
+              "uri": "public:\/\/cohesion\/call.eot",
+              "uuid": "53feb616-5cdd-409d-9d7a-4ef0aaca772d"
+          },
+          "ttf": {
+              "type": "file",
+              "uri": "public:\/\/cohesion\/call.ttf",
+              "uuid": "1ddc11bb-e452-464c-b720-45f5ab6f6800"
+          },
+          "woff": {
+              "type": "file",
+              "uri": "public:\/\/cohesion\/call.woff",
+              "uuid": "85c9bb93-b890-4d70-b0e1-8cb8afd3dcd4"
+          },
+          "woff2": {
+              "type": "file",
+              "uri": "public:\/\/cohesion\/call.woff2",
+              "uuid": "b09332a4-c22f-4d51-a483-864cae103c94"
+          }
+      },
+      "iconJSON": {
+          "json": "public:\/\/cohesion\/config (1).json"
+      },
+      "locked": false
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0042
+locked: false
+modified: false
+selectable: true
+source: null

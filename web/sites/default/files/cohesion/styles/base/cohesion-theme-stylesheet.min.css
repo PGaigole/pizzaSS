@@ -38,8 +38,8 @@
 }
 @font-face {
   font-family: "Fontello";
-  src: url("/sites/default/files/cohesion/call.eot");
-  src: url("/sites/default/files/cohesion/call.eot?#iefix") format("embedded-opentype"), url("/sites/default/files/cohesion/call.woff2") format("woff2"), url("/sites/default/files/cohesion/call.woff") format("woff"), url("/sites/default/files/cohesion/call.ttf") format("truetype");
+  src: url("/sites/default/files/cohesion/fontello.eot");
+  src: url("/sites/default/files/cohesion/fontello.eot?#iefix") format("embedded-opentype"), url("/sites/default/files/cohesion/fontello.woff2") format("woff2"), url("/sites/default/files/cohesion/fontello.woff") format("woff"), url("/sites/default/files/cohesion/fontello.ttf") format("truetype");
 }
 :root {
   --ssa-font-stacks-roboto: 'Roboto', sans-serif;
@@ -3379,6 +3379,24 @@ body {
 body {
   font-size: 16px;
 }
+ul {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 0.875rem;
+  margin-left: 1.25rem;
+  list-style-type: disc;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 0.875rem;
+}
 h6 {
   font-family: 'Roboto', sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -3386,6 +3404,27 @@ h6 {
   font-weight: 700;
   color: rgb(0, 0, 0);
   font-size: 1.125rem;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 1.75rem;
+  line-height: 1.25rem;
+  line-height: 45px;
+  margin-bottom: 3.125rem;
+  text-align: center;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  color: rgb(0, 0, 0);
 }
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -3409,35 +3448,6 @@ button, .button--primary {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
-}
-h2 {
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 3.75rem;
-  color: rgb(0, 0, 0);
-}
-h3 {
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  font-size: 1.75rem;
-  line-height: 1.25rem;
-  line-height: 45px;
-  margin-bottom: 3.125rem;
-  text-align: center;
-}
-p {
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  font-size: 0.875rem;
 }
 label {
   font-family: 'Roboto', sans-serif;

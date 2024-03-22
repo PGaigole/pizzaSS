@@ -1,3 +1,21 @@
+.ssa-ck-content ul {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 0.875rem;
+  margin-left: 1.25rem;
+  list-style-type: disc;
+}
+.ssa-ck-content p {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 0.875rem;
+}
 .ssa-ck-content h6 {
   font-family: 'Roboto', sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -5,6 +23,27 @@
   font-weight: 700;
   color: rgb(0, 0, 0);
   font-size: 1.125rem;
+}
+.ssa-ck-content h3 {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 1.75rem;
+  line-height: 1.25rem;
+  line-height: 45px;
+  margin-bottom: 3.125rem;
+  text-align: center;
+}
+.ssa-ck-content h2 {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  color: rgb(0, 0, 0);
 }
 .ssa-ck-content h1 {
   font-family: 'Roboto', sans-serif;
@@ -29,35 +68,6 @@
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
 }
-.ssa-ck-content h2 {
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 3.75rem;
-  color: rgb(0, 0, 0);
-}
-.ssa-ck-content h3 {
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  font-size: 1.75rem;
-  line-height: 1.25rem;
-  line-height: 45px;
-  margin-bottom: 3.125rem;
-  text-align: center;
-}
-.ssa-ck-content p {
-  font-family: 'Roboto', sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  font-size: 0.875rem;
-}
 .ssa-ck-content label {
   font-family: 'Roboto', sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -77,12 +87,44 @@
   font-size: 0.875rem;
   color: rgb(0, 0, 0);
 }
+.ssa-ck-content .coh-style-button-link {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 0.875rem;
+  font-style: normal;
+  background-color: rgb(251, 174, 97);
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  display: inline-block;
+}
+.ssa-ck-content .coh-style-recipe-paragraph {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  margin-top: 1.25rem;
+  margin-right: 0;
+  margin-bottom: 1.25rem;
+  margin-left: 0;
+}
 .ssa-ck-content .coh-style-social-icons, .ssa-ck-content .coh-style-facebook, .ssa-ck-content .coh-style-vimeo, .ssa-ck-content .coh-style-instagram {
   margin-bottom: 0;
   margin-left: 0;
   display: inline-block;
   list-style-type: none;
   font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .ssa-ck-content .coh-style-social-icons a, .ssa-ck-content .coh-style-facebook a, .ssa-ck-content .coh-style-vimeo a, .ssa-ck-content .coh-style-instagram a {
   display: -webkit-box;
@@ -98,16 +140,12 @@
           align-content: center;
   color: rgb(136, 136, 136);
 }
-.ssa-ck-content .coh-style-social-icons a:before, .ssa-ck-content .coh-style-facebook a:before, .ssa-ck-content .coh-style-vimeo a:before, .ssa-ck-content .coh-style-instagram a:before {
-  line-height: 1.0;
-  font-weight: normal;
-  text-transform: none;
-  speak: none;
-  font-variant: normal;
-  -webkit-font-smoothing: antialiased;
+.ssa-ck-content .coh-style-instagram {
+  font-family: 'Roboto', sans-serif;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
-  font-family: Fontello;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(136, 136, 136);
+  font-size: 1.5rem;
 }
 .ssa-ck-content .coh-style-instagram a:before {
   line-height: 1.0;
@@ -120,6 +158,13 @@
   content: "\f16d";
   font-family: Fontello;
 }
+.ssa-ck-content .coh-style-vimeo {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5rem;
+  color: rgb(136, 136, 136);
+}
 .ssa-ck-content .coh-style-vimeo a:before {
   line-height: 1.0;
   font-weight: normal;
@@ -130,6 +175,13 @@
   -moz-osx-font-smoothing: grayscale;
   content: "\f189";
   font-family: Fontello;
+}
+.ssa-ck-content .coh-style-facebook {
+  color: rgb(136, 136, 136);
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5rem;
 }
 .ssa-ck-content .coh-style-facebook a:before {
   line-height: 1.0;
